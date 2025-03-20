@@ -3,5 +3,5 @@
 </script>
 
 <Navbar>
-    <NavbarBrand>Logo</NavbarBrand>
+    <NavbarBrand>типпш</NavbarBrand>
 </Navbar>
