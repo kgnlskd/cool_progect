@@ -1,7 +1,7 @@
-import { apiClient } from 
+import { apiClient } from "Slib/config/apiClient";
 
 export default class TodosAPI{
-    static async getTodos (){
+    static async getTodos (): Promise<any>{
         try {
             const response = await apiClient.get("/todos");
             return response;
