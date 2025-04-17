@@ -1,9 +1,10 @@
-import ToDosApi from "$lib/api/toDosAPI";
+import TodosAPI from "$lib/api/TodosAPI";
 import { writable } from "svelte/store"; 
 
 export const todos = writable([]);
 
-export asyns function GetToDos(){
+export async function GetToDos(){
     const response = await TodosAPI.getTodos();
-    // conso
+    // console.log(response.data);
+    todos.set(response.data);
 }

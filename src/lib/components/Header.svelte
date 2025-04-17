@@ -12,7 +12,9 @@
         <NavItem>
             <NavLink href="/contacts">О нас</NavLink>
         </NavItem>
-
+        <NavItem>
+            <NavLink href="/cards">О нас</NavLink>
+        </NavItem>
     </Nav>
 </Navbar>
   
