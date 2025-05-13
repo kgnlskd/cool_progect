@@ -1,22 +1,24 @@
 <script lang="ts">
-    import { GetToDos,todos } from "Slib/store/ToDoStore";
-    import { Card, CardBody, Container } from "@sveltestrap/sveltestrap"
-    import { onMount } from "svelte";
+    import { Card, CardBody, CardHeader, CardImg, CardText, Col, Container, Row } from "@sveltestrap/sveltestrap"
    
-    onMount(()=>{
-        async function FetchTodos(){
-            await GetToDos();
-        }
-        FetchTodos();
-    })
 </script>
   <svelte:head>
     <tittle>Chorniy</tittle>
   </svelte:head>
 <Container>
-    {#each $todos as todo}
-    <Card>
-        
-    </Card>
+    <h1>Кредитование</h1>
+
+    <Row>
+      <Col>
+        <Card>
+          <CardHeader></CardHeader>
+          <CardBody>
+            <CardImg src=""/>
+            <CardText></CardText>
+          </CardBody>
+        </Card>
+      </Col>
+      
+    </Row>
     
-    </Container>
+</Container>
