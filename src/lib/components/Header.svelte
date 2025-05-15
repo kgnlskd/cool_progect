@@ -2,7 +2,7 @@
     import {Navbar, Nav, NavbarBrand, NavItem, NavLink} from "@sveltestrap/sveltestrap";
 </script>
 
-<Navbar>
+<Navbar class="shadow-lg">
     <NavbarBrand href="/">Logotip</NavbarBrand>
 
     <Nav>
@@ -10,10 +10,10 @@
             <NavLink href="/about">О нас</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink href="/contacts">О нас</NavLink>
+            <NavLink href="/contacts">Контакты</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink href="/cards">О нас</NavLink>
+            <NavLink href="/services">Наши услуги</NavLink>
         </NavItem>
     </Nav>
 </Navbar>
